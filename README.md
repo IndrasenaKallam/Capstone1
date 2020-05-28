@@ -1,9 +1,12 @@
-# Capstone1
+# Springboard Capstone1  "Prediction of Arrest's in chicago"
 
-email : kallamindrasena@gmail.com
+Author : Indrasena kallam
+
+email  : kallamindrasena@gmail.com
 
 
 The main idea behind this project is to create a user story of the crimes Dataset, which involved geographical analysis, Crime Data analysis and the use of machine learning models on the Chicago crime dataset. Analyzing and examining of crimes gives an understanding of crime regions and can used to take the precautions to reduce the crime rates.By identifying the patterns will allow us to tackle problems. My approach involves the prediction crimes and visualization of patterns. Using of past data could help us to correlate factors which might help to understand the possibility of happening of the particular crime.
+
 
 # Written Docs
 1.Project Proposal
@@ -19,5 +22,14 @@ The main idea behind this project is to create a user story of the crimes Datase
 6.Machine learning Application
 
 
-# Dataset Source 
-https://www.kaggle.com/chicago/chicago-crime
+# About Dataset
+
+source : https://www.kaggle.com/chicago/chicago-crime
+
+●	Dataset consists of 22 columns
+
+●	Consists of 6.3 million of rows
+
+●	Size of the data set 1.4 GB
+
+
