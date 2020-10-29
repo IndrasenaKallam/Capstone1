@@ -12,7 +12,7 @@ node {
         }
         post {
         always {
-            emailext body: 'A Test EMail', recipientProviders: [['senadevops@gmail.com], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+            emailext body: 'A Test EMail', recipientProviders: [['senadevops@gmail.com'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
         }
         
         
