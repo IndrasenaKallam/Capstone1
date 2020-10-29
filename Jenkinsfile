@@ -1,15 +1,8 @@
-pipeline {
-    environment {
-    registry = "prhomhyse/devops-capstone"
-    registryCredential = 'docker-hub'
-    }
-    
-    agent any
-    stages {
-        stage ('Cloning Git') {
-            steps {
-                sh 'git clone https://github.com/IndrasenaKallam/Capstone1.git'
+node {
+        stage('Checkout scm') {
+               parallel checkout:checkout([$class: 'GitSCM', branches: [[name: '*/master']],
+                doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], 
+                userRemoteConfigs: [[url: 'https://github.com/IndrasenaKallam/Capstone1.git']]])
             }
-        }
-     }
-}
+        
+    }
